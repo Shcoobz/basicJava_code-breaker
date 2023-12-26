@@ -1,8 +1,17 @@
 package com.shcoobz.codebreaker.util;
 
 public class ConsolePrinter {
+
+  public static void appNameAscii(){
+    print("     ____               _          ____                          _                  ");
+    print("    / ___|   ___     __| |   ___  | __ )   _ __    ___    __ _  | | __   ___   _ __ ");
+    print("   | |      / _ \\   / _` |  / _ \\ |  _ \\  | '__|  / _ \\  / _` | | |/ /  / _ \\ | '__|");
+    print("   | |___  | (_) | | (_| | |  __/ | |_) | | |    |  __/ | (_| | |   <  |  __/ | |   ");
+    print("    \\____|  \\___/   \\__,_|  \\___| |____/  |_|     \\___|  \\__,_| |_|\\_\\  \\___| |_|   ");
+  }
+
   public static void welcomeMessage() {
-    print("Welcome to Shcoobz CodeBreaker!");
+    print("\nWelcome to CodeBreaker!");
   }
 
   public static void chooseCipherMessage() {
@@ -54,6 +63,14 @@ public class ConsolePrinter {
   public static void displayResult(String originalMessage, String resultMessage, String operation) {
     print("\nOriginal Message: " + originalMessage);
     print(operation + " Message: " + resultMessage);
+  }
+
+  public static void promptForKeyword() {
+    print("Keyword?: ");
+  }
+
+  public static void promptForShiftValue() {
+    print("Shift value?: ");
   }
 
   private static void print(String message) {

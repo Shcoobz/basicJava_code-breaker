@@ -1,8 +1,7 @@
-package com.shcoobz.codebreaker.viewer;
+package com.shcoobz.codebreaker.alphabetviewer.viewers;
 
 import com.shcoobz.codebreaker.cipher.VigenereCipher;
-import com.shcoobz.codebreaker.service.CipherAlphabetViewer;
-import com.shcoobz.codebreaker.service.ModifierType;
+import com.shcoobz.codebreaker.alphabetviewer.modifiers.ModifierType;
 
 import java.util.Scanner;
 

@@ -1,4 +1,6 @@
-package com.shcoobz.codebreaker.service;
+package com.shcoobz.codebreaker.alphabetviewer.viewers;
+
+import com.shcoobz.codebreaker.alphabetviewer.modifiers.ModifierType;
 
 /**
  * An abstract viewer to display cipher alphabets.
