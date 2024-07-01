@@ -1,6 +1,6 @@
 # basicJava_Code-Breaker: [LIVE DEMO](https://replit.com/@shcoobz/basicJava-code-breaker)
 
-![CodeBreaker Cipher Tool](img/CodeBreaker.png)
+![CodeBreaker](src/main/resources/img/CodeBreaker.png)
 
 ## Summary
 
