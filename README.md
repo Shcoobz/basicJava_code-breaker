@@ -1,45 +1,47 @@
-# CodeBreaker Cipher Tool
+# basicJava_Code-Breaker: [LIVE DEMO](https://replit.com/@shcoobz/basicJava-code-breaker)
 
-![CodeBreaker Logo](src/main/resources/img/CodeBreaker.png)
+![CodeBreaker Cipher Tool](img/CodeBreaker.png)
 
-CodeBreaker is a simple Java application that allows you to perform encryption and decryption using various ciphers, including the Caesar Cipher and Vigenere Cipher. This tool is designed to help you learn and experiment with different ciphers and their applications in cryptography.
+## Summary
 
-## Table of Contents
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Future To-Dos](#future-to-dos)
-- [License](#license)
+CodeBreaker Cipher Tool is a Java application that enables encryption and decryption using the Caesar Cipher and Vigenere Cipher. It's designed to facilitate learning about different ciphers and their use in cryptography, featuring an interactive command-line interface for easy operation.
+
+The core functionality includes:
+
+- Encrypting or decrypting messages using the Caesar or Vigenere Ciphers.
+- Maintaining application state with details of the last operations.
+- Providing an interactive user interface for easy message manipulation.
 
 ## Features
 
-- **Caesar Cipher**: Encrypt or decrypt messages using the Caesar Cipher with a user-defined shift value.
-- **Vigenere Cipher**: Encrypt or decrypt messages using the Vigenere Cipher with a user-defined keyword.
-- **Interactive Console**: An interactive command-line interface makes it easy to use different ciphers and perform actions on messages.
-- **Application State**: Keeps track of the last used cipher, action, modifier, original message, and result message.
+### Caesar Cipher
 
-## Getting Started
+Encrypt or decrypt messages using a user-defined shift value, ideal for basic encryption experiments.
 
-To get started with CodeBreaker, follow these steps:
+### Vigenere Cipher
 
-1. Clone this repository to your local machine.
-2. Ensure you have Java and a Java Development Kit (JDK) installed.
-3. Build the project using a Java build tool like Maven or compile the source code manually.
+Utilize a keyword to perform polyalphabetic encryption or decryption, offering a more complex cipher technique.
 
-## Usage
+### Interactive Console
 
-To use CodeBreaker, run the `Application` class, and the interactive console will guide you through the process of selecting a cipher, performing actions on messages, and more. Follow the on-screen prompts to interact with the tool.
+A user-friendly command-line interface that guides users through encryption or decryption processes.
 
-## Future To-Dos
-While CodeBreaker currently supports the Caesar Cipher and Vigenere Cipher, there are exciting possibilities for expanding its capabilities. Here are some future to-dos for the project:
+### Application State Management
 
-- Implement More Ciphers: Expand the range of supported ciphers, such as the Atbash Cipher, Substitution Cipher, and Transposition Cipher.
-- Enhance User Experience: Improve the user interface and provide more detailed feedback during cipher operations.
-- Add Cryptanalysis Tools: Integrate tools for breaking simple ciphers and analyzing the security of encrypted messages.
-- Support File Input/Output: Allow users to encrypt or decrypt messages from files, not just the console input.
+Keeps track of the last used cipher, action, and messages, allowing users to review previous inputs and results.
 
-Contributions and suggestions for these enhancements are welcome! Feel free to open issues or submit pull requests to help us improve CodeBreaker.
+## Additional Features
 
-## License
+- **Future Expansion**: Plans to include more ciphers like Atbash, Substitution, and Transposition Ciphers.
+- **User Experience Enhancements**: Improvements to the interface and feedback mechanisms are under consideration.
+- **Cryptanalysis Tools**: Integration of tools for breaking ciphers and analyzing security is a planned update.
+- **File I/O Support**: Future versions will aim to support encrypting and decrypting messages from files.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Technologies
+
+- **Java**: The backbone for the application, providing robust and reliable performance.
+- **Command-Line Interface**: Employs a simple CLI for interactions, making it accessible to beginners and advanced users alike.
+
+---
+
+_Note: This document provides an overview of CodeBreaker Cipher Tool. For detailed instructions and more information, please refer to the source code documentation._
