@@ -1,4 +1,4 @@
-# basicJava_Code-Breaker: [LIVE DEMO](https://replit.com/@shcoobz/basicJava-code-breaker)
+# basicJava_Code Breaker: [LIVE DEMO](https://replit.com/@shcoobz/basicJava-code-breaker)
 
 ![CodeBreaker](src/main/resources/img/CodeBreaker.png)
 
