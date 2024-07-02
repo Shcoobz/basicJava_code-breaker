@@ -9,8 +9,10 @@ import com.shcoobz.codebreaker.service.VigenereCipherService;
 import java.util.Scanner;
 
 /**
- * The `Application` class serves as the entry point for the CodeBreaker cipher tool.
- * It initializes the necessary components, including ciphers and user interfaces,
+ * The `Application` class serves as the entry point for the CodeBreaker cipher
+ * tool.
+ * It initializes the necessary components, including ciphers and user
+ * interfaces,
  * and starts the application.
  */
 public class Application {
@@ -53,5 +55,3 @@ public class Application {
     return new VigenereCipherService(vigenereCipher, scanner);
   }
 }
-
-
